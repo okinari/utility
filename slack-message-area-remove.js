@@ -13,5 +13,5 @@ const removeMessageArea = function(timeout = 5000, intervalTime = 500) {
 			clearInterval(intervalId)
 		}
 		count--
-  }, intervalTime)
+	}, intervalTime)
 }
