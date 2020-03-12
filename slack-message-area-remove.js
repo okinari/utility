@@ -9,8 +9,9 @@ const removeMessageArea = function(timeout = 5000, intervalTime = 500) {
 			document.querySelector('#c-coachmark-anchor').remove()
 			clearInterval(intervalId)
 		}
-		if (--count < 0) {
-      clearInterval(intervalId)
-    }
+		if (count < 0) {
+			clearInterval(intervalId)
+		}
+		count--
   }, intervalTime)
 }
