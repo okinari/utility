@@ -1,4 +1,4 @@
-function removeMessageArea(timeout = 5000, intervalTime = 500) {
+const removeMessageArea = function(timeout = 5000, intervalTime = 500) {
 	if (timeout < intervalTime) {
 		timeout = 5000
 		intervalTime = 500
